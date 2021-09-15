@@ -18,7 +18,5 @@ $ bundle
   GOOGLE_CLIENT_ID=YOURSECRETKEYGOESHERE <br>
   GOOGLE_CLIENT_SECRET=YOURSECRETKEYGOESHERE
   
- ```diff
-- NOTE: 
-  ```
+ <h1> NOTE: </h1>
   <p>DON'T FORGET TO ADD <b> .env </b> IN YOUR <b> .gitignore </b>
