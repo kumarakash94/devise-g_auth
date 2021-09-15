@@ -1,0 +1,16 @@
+<h4>this is home page</h4>
+
+
+<center>
+<p>
+<% if user_signed_in? %>
+	<%= link_to 'Signout', destroy_user_session_path, method: :delete %>
+	<%= link_to 'Edit', edit_user_registration_path %>
+<% else %>
+	<%= link_to 'Go to login page/signup', new_user_session_path %>
+	<br>
+	<%= link_to 'Continue with gmail', user_google_oauth2_omniauth_authorize_path %> <br>
+
+<% end %>
+</p>
+</center>
