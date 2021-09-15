@@ -1,24 +1,24 @@
 # README
+Need To Add <b> GOOGLE CLIENT ID </b> and <b> GOOGLE SECRET KEY </b> 
+<p> Follow this link for <b> Google API </b>
+ https://console.cloud.google.com/
+  
+ ## Add this line to the top of your application's Gemfile:
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+gem 'dotenv-rails', groups: [:development, :test]
 
-Things you may want to cover:
+ ## And then execute:
 
-* Ruby version
+$ bundle
+  and then
+  $ touch .env
+  
+  ## Add your application configuration to your .env file in the root of your project:
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+  GOOGLE_CLIENT_ID=YOURSECRETKEYGOESHERE <br>
+  GOOGLE_CLIENT_SECRET=YOURSECRETKEYGOESHERE
+  
+ ```diff
+- NOTE: 
+  ```
+  <p>DON'T FORGET TO ADD <b> .env </b> IN YOUR <b> .gitignore </b>
